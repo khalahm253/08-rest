@@ -1,7 +1,7 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API
 ======
 
-Travis Link :
+Travis Link : https://travis-ci.com/khalahm253/08-rest
 
 I used promise constructs to manage asynchronous code
 I created a vanilla RESTful API with in-memory persistence
