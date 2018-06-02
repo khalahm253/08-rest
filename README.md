@@ -1,30 +1,15 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API
 ======
 
-## Submission Instructions
-  * fork this repository & create a new branch for your work
-  * write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
-  * push to your repository
-  * submit a pull request to this repository
-  * submit a link to your PR in canvas
-  * write a question and observation on canvas
+Travis Link : https://travis-ci.com/khalahm253/08-rest
 
-## Learning Objectives  
-* students will learn to use promise constructs to manage asynchronous code
-* students will learn to create a vanilla RESTful API with in-memory persistence
+I used promise constructs to manage asynchronous code
+I created a vanilla RESTful API with in-memory persistence
 
-## Requirements
-#### Configuration
-  * `.gitignore`
-  * `.eslintrc`
-  * `package.json`
-  * `README.md`
 
-#### Feature Tasks
-* create the following directories to organize your code:
-  * `lib`
-  * `model`
-  * `test`
+
+
+
 * create an HTTP server using the native NodeJS `http` module
 * create an object constructor that creates a _simple resource_ with at least 3 properties
   * include an `id` property that is set to a unique id (**hint:** you'll need to use `node-uuid`)
@@ -53,5 +38,4 @@
  * `POST`: test 400, it should respond with 'bad request' if no request body was provided or the body was invalid
  * `POST`: test 200, it should respond with the body content for a post request with a valid body
 
-## Bonus
-* **2pts:** a `GET` request to `/api/simple-resource-name` with no **?id=** should return an array of all of the ids for that resource
+
